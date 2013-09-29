@@ -1,0 +1,6 @@
+register({
+  id: 'hello_world',
+  type: 'application',
+  language: 'rust',
+  deps: ['stdlib']
+});

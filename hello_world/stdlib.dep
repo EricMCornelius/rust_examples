@@ -1,0 +1,7 @@
+register({
+  id: 'stdlib',
+  language: 'rust',
+  type: 'external',
+  libdirs: ['/usr/lib/rust/rust-nightly/lib/rustc/x86_64-unknown-linux-gnu/lib'],
+  libs: ['std-6c65cf4b443341b1-0.9-pre', 'rustrt', 'rt', 'pthread', 'dl', 'm', 'morestack', 'rustrt']
+});
